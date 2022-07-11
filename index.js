@@ -43,7 +43,7 @@ app.get('/api/count', async (req, res) => {
 })
 
 app.get('/sun', (req, res) => {
-  console.log('hello sun')
+  res.send('hello sun!')
 })
 
 // 小程序调用，获取微信 Open ID
